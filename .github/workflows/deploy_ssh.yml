@@ -18,4 +18,5 @@ jobs:
         port: 22
         script: |
             cd ${{ github.event.repository.name }}/part2/04-cicd
+            mkdir test_dir
             sh deploy_ssh.sh
